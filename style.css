@@ -1,0 +1,76 @@
+body { 
+    margin: 0; 
+    padding: 0; 
+}
+
+#map { 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    width: 100%; 
+    z-index: -1;
+}
+
+.sidebar {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 35%;
+    position: fixed;
+    left: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.minibar {
+    width: 70px;
+    position: fixed;
+    height: 100%;
+    background-color: white;
+    left: 0;
+    z-index: 1;
+}
+
+.star {
+    height: 50px;
+    width: 50px;
+    background-color: darkslategray;
+    border-radius: 50%;
+    z-index: inherit;
+    margin: 10px;
+    outline-color: gray;
+    position: fixed;
+}
+
+.earth {
+    height: 50px;
+    width: 50px;
+    background-color: darkslategray;
+    border-radius: 50%;
+    z-index: inherit;
+    margin: 10px;
+    outline-color: gray;
+    bottom: 0;
+    position: fixed;
+}
+
+.container {
+    width: 70px;
+    height: 50%;
+    position: fixed;
+    background-color: pink;
+    left: 0;
+    z-index: inherit;
+}
+.car {
+    height: 80px;
+    width: 50px;
+    background-color: gold;
+    border-radius: 20%;
+    z-index: inherit;
+    margin: 10px;
+    outline-color: gray;
+    display: grid;
+    bottom: 0;
+
+}

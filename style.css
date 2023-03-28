@@ -12,7 +12,7 @@ body {
 }
 
 .sidebar {
-    background-color: whitesmoke;
+    background-color: white;
     height: 100%;
     width: 35%;
     position: fixed;
@@ -56,11 +56,12 @@ body {
 
 .container {
     width: 70px;
-    height: 50%;
+    height: 55%;
     position: fixed;
-    background-color: pink;
+    /* background-color: pink; */
     left: 0;
     z-index: inherit;
+    margin-top: 70px;
 }
 .car {
     height: 80px;
@@ -72,5 +73,13 @@ body {
     outline-color: gray;
     display: grid;
     bottom: 0;
+}
 
+.rearcamera video {
+    position: absolute;
+    display:block;
+    right: 0px;
+    top: 0px;
+    border-radius: 1rem;
+    margin: 10px;
 }

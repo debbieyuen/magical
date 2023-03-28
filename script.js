@@ -21,9 +21,22 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGViYmlleXVlbiIsImEiOiJjbDA1eWZ5b2MwdThnM2pue
     );
     
     const container = document.querySelector('.container');
+    var gridWidth = 172;
+    var gridHeight = 100;
     Draggable.create(".car", {
         type: "y",
         edgeResistance: 0.65,
         bounds: ".container",
         lockAxis: true,
+        inertia: true,
+        // snap: {
+        //     x: function(endValue) {
+        //         return Math.round(endValue / gridWidth) * gridWidth;
+        //     },
+        //     y: function(endValue) {
+        //         return Math.round(endValue / gridHeight) * gridHeight;
+        //     }
+        // }
     });
+
+    Draggable.create(".rearcamera")

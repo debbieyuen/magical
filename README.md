@@ -15,12 +15,6 @@ Clone the repo
 $ git clone https://github.com/debbieyuen/magical.git
 ```
 
-In Visual Studio Code, install the Live Server Extension to quickly run the website locally on your machine. Else, run the program in your terminal.
-Clone the repo
-```bash
-$ open index.html
-```
-
 Make sure you have NPM. If not installed, install the latest version of NPM.
 ```bash
 $ npm install -g npm
@@ -52,4 +46,13 @@ Or install GSAP without bonus plugins.
 $ npm install gsap
 ```
 
-## Bonus Question Setup
+Install Flask
+```bash
+$ pip install Flask
+```
+
+In Visual Studio Code, install the Live Server Extension to quickly run the website locally on your machine. Else, run the program in your terminal.
+Clone the repo
+```bash
+$ open index.html
+```

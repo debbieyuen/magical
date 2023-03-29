@@ -78,4 +78,10 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGViYmlleXVlbiIsImEiOiJjbDA1eWZ5b2MwdThnM2pue
     
     gsap.set(logoElement, {xPercent:-50, yPercent:-50})
 
+    //Audio Play Song
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+
     // Draggable.create(".rearcamera")

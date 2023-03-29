@@ -35,21 +35,28 @@ input {
     width: 360px;
     height: 50px;
     display: block;
-    padding: 4px 4px 4px 20px;
+    padding: 10px 20px 10px 50px;
     border-style: none;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
     border-radius: 0.2rem;
+    background-image: url(./assets/magnifying-glass-regular.svg);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: left center;
+    background-position-x: 20px;
+
 }
 
 input[type="search"]::placeholder {
-    color: #bbb;
+    color: lightgray;
     font-weight: bold;
   }
 
 .sidebar {
     background-color: white;
     height: 100%;
-    width: 35%;
+    margin-left: 70px;
+    width: 430px;
     position: fixed;
     left: 0;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -58,6 +65,34 @@ input[type="search"]::placeholder {
     z-index: 1;
 }
 
+.songname {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 200px;
+    width: 430px;
+    /* background-color: pink; */
+}
+
+.songdescription {
+    margin-right: 5px;
+}
+
+img {
+    width: 170px;
+    border-radius: 0.5rem;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+sub {
+    font-size: 15px;
+    font-weight: 500;
+}
 .minibar {
     height: 100%;
     width: 70px;
@@ -84,7 +119,6 @@ input[type="search"]::placeholder {
     border-radius: 0.5rem;
     z-index: inherit;
     margin: 10px;
-    /* border: 2px solid lightgray; */
     position: fixed;
 }
 

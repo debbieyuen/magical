@@ -1,3 +1,10 @@
+// Webcam
+const webCamElement = document.getElementById("webCam");
+const canvasElement = document.getElementById("canvas");
+const webcam = new Webcam(webCamElement, "user", canvasElement);
+// webcam.start()
+
+// Mapbox
 mapboxgl.accessToken = 'pk.eyJ1IjoiZGViYmlleXVlbiIsImEiOiJjbDA1eWZ5b2MwdThnM2pueThhcHY0cnVrIn0.KQJrp1gFUIcOeIGqWNfcmA';
     const map = new mapboxgl.Map({
         container: 'map', // container ID
@@ -52,6 +59,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGViYmlleXVlbiIsImEiOiJjbDA1eWZ5b2MwdThnM2pue
                 TweenLite.to("#map", 0.5, {scale:1, opacity:0});
                 TweenLite.to(".sidebar", 0.2, {scale:1, opacity:0});
                 TweenLite.to(".searchbar", 0.1, {scale:1, opacity:0});
+                webcam.start();
             }
         },
         onThrowUpdate:updateDirections,

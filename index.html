@@ -28,7 +28,16 @@
   <div class="container"><div class="car"></div></div>
   <div class="earth"></div>
 </div>
-<div class="sidebar"></div>
+<div class="sidebar">
+  <div class="songname">
+    <div class="magicimage"><img src="./assets/magic-school-bus.jpeg"></div>
+    <div class="songdescription">
+      <h3>Ride on the Magic School Bus</h3>
+      <sub>Magic School Bus</sub>
+      <!-- <h7>90s-00s Kids Tunes</h3> -->
+    </div>
+  </div>
+</div>
 
 <!-- Webcam code -->
 <!-- If the direction of car is down, display camera -->
@@ -37,12 +46,11 @@
   <div class="rearcamera">
     <video id="webCam" autoplay playsinline></video>
     <canvas id="canvas"></canvas>
-    <script>
-        const webCamElement = document.getElementById("webCam");
-        const canvasElement = document.getElementById("canvas");
-        const webcam = new Webcam(webCamElement, "user", canvasElement);
-        webcam.start()
-    </script>
+    <!-- <script> -->
+        // const webCamElement = document.getElementById("webCam");
+        // const canvasElement = document.getElementById("canvas");
+        // const webcam = new Webcam(webCamElement, "user", canvasElement);
+        // webcam.start() </script>
 </div>
 </div>
 

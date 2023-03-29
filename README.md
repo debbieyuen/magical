@@ -2,7 +2,10 @@
 
 <img width="2048" alt="Screen Shot 2023-03-29 at 6 41 58 AM" src="https://user-images.githubusercontent.com/31296177/228558278-40c8560e-ff85-45ee-84ff-ff94a02ae6be.png">
 
-The Magic School Bus is a web app compatible on Macs and iPhones! Visit the website at https://debbieyuen.github.io/magical/ to test it out. 
+The Magic School Bus is a web app compatible on Macs and iPadss! 
+## Links
+  * Live Website: https://debbieyuen.github.io/magical/
+  * Video Demo: https://www.youtube.com/watch?v=XTSfzfHcBxM
 
 <img width="2048" alt="Screen Shot 2023-03-29 at 6 48 15 AM" src="https://user-images.githubusercontent.com/31296177/228559116-f68dde3d-69f7-4c27-868b-8554aa9ab37d.png">
 

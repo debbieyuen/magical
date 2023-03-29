@@ -70,12 +70,17 @@ input[type="search"]::placeholder {
     display: grid;
     text-align: center;
     justify-content: center;
+
+    background-image: radial-gradient(rgb(233, 233, 233) 2px, transparent 2px),
+        radial-gradient(lightgray 2px, transparent 2px);
+    background-size: 18px 18px;
+    background-repeat: repeat;
 }
 
 .star {
     height: 100px;
     width: 50px;
-    background-color: rgba(211, 211, 211, 0.5);
+    background-color: lightgray;
     border-radius: 0.5rem;
     z-index: inherit;
     margin: 10px;
@@ -86,11 +91,10 @@ input[type="search"]::placeholder {
 .earth {
     height: 100px;
     width: 50px;
-    background-color: rgba(211, 211, 211, 0.5);
+    background-color: lightgray;
     border-radius: 0.5rem;
     z-index: inherit;
     margin: 10px;
-    outline-color: gray;
     bottom: 0;
     position: fixed;
 }

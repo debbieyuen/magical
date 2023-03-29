@@ -9,7 +9,7 @@ This project is
   * Python 3.8.8
   * NodeJS v18.8.1
 
-## Setup
+## Project Setup
 Clone the repo
 ```bash
 $ git clone https://github.com/debbieyuen/magical.git
@@ -52,4 +52,4 @@ Or install GSAP without bonus plugins.
 $ npm install gsap
 ```
 
-
+## Bonus Question Setup

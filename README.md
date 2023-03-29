@@ -15,15 +15,17 @@ The Magic School Bus is a web application compatible on Macs and iPads. While I 
 | yellow car swipe down | opens up rear view cameras (your webcam in this prototype) |
 | yellow car swipe up | displays navigation and music side panels |
 | press location button | prompts you for your location to display your location on map |
-| tap MSB image | plays the MSB theme song |
+| tap pink MSB image | plays the MSB theme song |
 | pinch map| zoom in and out of navigation map |
 | allow permissions| allow app to access your location and webcam |
 
 ### Magic School Bus Gears
 | Gears | Description |
 | --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| `P`: Park | List all *new or modified* files |
+| `R`: Reverse | Show file differences that **haven't been** staged |
+| `N`: Neutral | Show file differences that **haven't been** staged |
+| `D`: Drive | Show file differences that **haven't been** staged |
 
 <img width="2048" alt="Screen Shot 2023-03-29 at 6 48 15 AM" src="https://user-images.githubusercontent.com/31296177/228559116-f68dde3d-69f7-4c27-868b-8554aa9ab37d.png">
 

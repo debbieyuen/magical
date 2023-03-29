@@ -49,15 +49,16 @@
     padding-top:0px;
 }
 .car {
-    height: 80px;
+    height: 97px;
     width: 50px;
-    background-color: gold;
+    /* background-color: pink; */
     border-radius: 0.5rem;
     z-index: inherit;
     margin-top: 0px;
     margin: 10px;
-    outline-color: gray;
+    /* outline-color: gray; */
     top: 0rem;
+    background-image: url(../assets/teslayay.svg);
     /* display: grid;
     bottom: 0; */
 }

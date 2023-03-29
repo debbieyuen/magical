@@ -97,9 +97,15 @@ input[type="search"]::placeholder {
     margin-right: 5px;
 }
 
+
 img {
     width: 170px;
     border-radius: 0.5rem;
     margin-left: 40px;
     margin-top: 20px;
+}
+
+.websitedescription {
+    padding-left: 40px;
+    padding-right: 40px;
 }

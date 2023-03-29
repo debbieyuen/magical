@@ -2,10 +2,28 @@
 
 <img width="2048" alt="Screen Shot 2023-03-29 at 6 41 58 AM" src="https://user-images.githubusercontent.com/31296177/228558278-40c8560e-ff85-45ee-84ff-ff94a02ae6be.png">
 
-The Magic School Bus is a web app compatible on Macs and iPadss! 
-## Links
+The Magic School Bus is a web application compatible on Macs and iPads. While I was working on this assignment, I was interested in bringing back my childhood memories of watching the Magic School Bus. I remember my classmates and I would chant along with the theme song and wonder over where our next field trip would be. 
+
+### Links
   * Live Website: https://debbieyuen.github.io/magical/
   * Video Demo: https://www.youtube.com/watch?v=XTSfzfHcBxM
+
+### Website Interactions
+| Action | Description |
+| --- | --- |
+| drag yellow car | swipe down to *reverse* and swipe up to *drive* |
+| yellow car swipe down | opens up rear view cameras (your webcam in this prototype) |
+| yellow car swipe up | displays navigation and music side panels |
+| press location button | prompts you for your location to display your location on map |
+| tap MSB image | plays the MSB theme song |
+| pinch map| zoom in and out of navigation map |
+| allow permissions| allow app to access your location and webcam |
+
+### Magic School Bus Gears
+| Gears | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
 
 <img width="2048" alt="Screen Shot 2023-03-29 at 6 48 15 AM" src="https://user-images.githubusercontent.com/31296177/228559116-f68dde3d-69f7-4c27-868b-8554aa9ab37d.png">
 

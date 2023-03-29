@@ -11,13 +11,13 @@ The Magic School Bus is a web application compatible on Macs and iPads. While I 
 ### Website Interactions
 | Action | Description |
 | --- | --- |
-| drag yellow car | swipe down to *reverse* and swipe up to *drive* |
-| yellow car swipe down | opens up rear view cameras (your webcam in this prototype) |
-| yellow car swipe up | displays navigation and music side panels |
-| press location button | prompts you for your location to display your location on map |
-| tap pink MSB image | plays the MSB theme song |
-| pinch map| zoom in and out of navigation map |
-| allow permissions| allow app to access your location and webcam |
+| Drag yellow car | Swipe down to *reverse* and swipe up to *drive* |
+| Yellow car swipe down | Opens up rear view cameras (your webcam in this prototype) |
+| Yellow car swipe up | Displays navigation and music side panels |
+| Press location button | Prompts you for your location to display your location on map |
+| Tap pink MSB image | Plays the MSB theme song |
+| Pinch map| Zoom in and out of navigation map |
+| Allow permissions| Allow app to access your location and webcam |
 
 ### Magic School Bus Gears
 | Gears | Description |

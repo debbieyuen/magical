@@ -42,6 +42,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGViYmlleXVlbiIsImEiOiJjbDA1eWZ5b2MwdThnM2pue
                 console.log(this.target);
                 TweenLite.to("#map", 0.5, {scale:1, opacity: 1});
                 TweenLite.to(".sidebar", 0.5, {scale:1, opacity:1});
+                TweenLite.to(".searchbar", 0.8, {scale:1, opacity:1});
                 // video.style.display = "none";
                 // document.getElementById("blackbackground").style.visibility = "hidden";
             }
@@ -50,6 +51,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGViYmlleXVlbiIsImEiOiJjbDA1eWZ5b2MwdThnM2pue
                 // document.getElementById(".blackbackground").style.visibility = "hidden";
                 TweenLite.to("#map", 0.5, {scale:1, opacity:0});
                 TweenLite.to(".sidebar", 0.2, {scale:1, opacity:0});
+                TweenLite.to(".searchbar", 0.1, {scale:1, opacity:0});
             }
         },
         onThrowUpdate:updateDirections,

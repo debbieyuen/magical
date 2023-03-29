@@ -21,3 +21,13 @@ Clone the repo
 $ open index.html
 ```
 
+Make sure you have NPM. If not installed, install the latest version of NPM.
+```bash
+$ npm install -g npm
+```
+
+Check to make sure it was installed successfully.
+```bash
+$ npm -v
+$ node -v
+```

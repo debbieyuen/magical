@@ -1,6 +1,7 @@
 body { 
     margin: 0; 
     padding: 0; 
+    font-family: 'Roboto', sans-serif;
 }
 
 #map { 
@@ -8,7 +9,12 @@ body {
     top: 0; 
     bottom: 0; 
     width: 100%; 
-    z-index: -1;
+    z-index: 0;
+}
+
+.whitetext {
+    color: white;
+    margin-left: 80px;
 }
 
 .sidebar {
@@ -18,35 +24,41 @@ body {
     position: fixed;
     left: 0;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-    border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-}
-
-.minibar {
-    width: 70px;
-    position: fixed;
-    height: 100%;
-    background-color: white;
-    left: 0;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
     z-index: 1;
 }
 
+.minibar {
+    height: 100%;
+    width: 70px;
+    left: 0;
+    z-index: 2;
+    position: fixed;
+    background-color: white;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+}
+
 .star {
-    height: 50px;
+    height: 100px;
     width: 50px;
-    background-color: darkslategray;
-    border-radius: 50%;
+    background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 0.5rem;
     z-index: inherit;
     margin: 10px;
-    outline-color: gray;
+    /* border: 2px solid lightgray; */
     position: fixed;
 }
 
 .earth {
-    height: 50px;
+    height: 100px;
     width: 50px;
-    background-color: darkslategray;
-    border-radius: 50%;
+    background-color: rgba(211, 211, 211, 0.5);
+    border-radius: 0.5rem;
     z-index: inherit;
     margin: 10px;
     outline-color: gray;
@@ -56,30 +68,41 @@ body {
 
 .container {
     width: 70px;
-    height: 55%;
+    height: 50%;
     position: fixed;
     /* background-color: pink; */
     left: 0;
     z-index: inherit;
-    margin-top: 70px;
+    margin-top: 120px;
 }
 .car {
     height: 80px;
     width: 50px;
     background-color: gold;
-    border-radius: 20%;
+    border-radius: 0.5rem;
     z-index: inherit;
+    margin-top: 0px;
     margin: 10px;
     outline-color: gray;
-    display: grid;
-    bottom: 0;
+    /* display: grid;
+    bottom: 0; */
+}
+
+.blackbackground {
+    background-color: black;
+    width: 100%; 
+    height: 100%;
+    position: fixed;
+    z-index: -1;
 }
 
 .rearcamera video {
     position: absolute;
-    display:block;
+    display: block;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
     right: 0px;
     top: 0px;
-    border-radius: 1rem;
-    margin: 10px;
+    height: 100%;
+    width: auto;
 }

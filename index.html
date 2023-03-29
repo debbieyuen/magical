@@ -5,6 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewpoint" content="width=device-width", initial-scale="1.0">
   <title>GitHub Pages</title>
+  <!-- Google Fonts Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <!-- Mapbox -->
   <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css'>
   <link rel="stylesheet" href="./style.css">
@@ -21,15 +25,16 @@
 <body>
 <div class="minibar">
   <div class="star"></div>
-  <div class="container">
-    <div class="car"></div>
-  </div>
+  <div class="container"><div class="car"></div></div>
   <div class="earth"></div>
 </div>
 <div class="sidebar"></div>
 
 <!-- Webcam code -->
-<div class="rearcamera">
+<!-- If the direction of car is down, display camera -->
+<div class="blackbackground">
+  <h4 class = "whitetext">Swipe up to go forward</h4>
+  <div class="rearcamera">
     <video id="webCam" autoplay playsinline></video>
     <canvas id="canvas"></canvas>
     <script>
@@ -38,6 +43,7 @@
         const webcam = new Webcam(webCamElement, "user", canvasElement);
         webcam.start()
     </script>
+</div>
 </div>
 
 <div id="map"></div>

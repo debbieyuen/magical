@@ -19,7 +19,13 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGViYmlleXVlbiIsImEiOiJjbDA1eWZ5b2MwdThnM2pue
             showUserHeading: true
         })
     );
-    
+    // Define variables for draggable if statement
+    var directionStart = document.getElementById("directionStart"),
+    directionVelocity = document.getElementById("directionVelocity"),
+    directionObject = document.getElementById("directionObject"),
+    original = document.getElementById("original"),
+    logoElement = document.getElementById("logoElement");
+
     const container = document.querySelector('.container');
     var gridWidth = 172;
     var gridHeight = 100;
@@ -29,14 +35,37 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGViYmlleXVlbiIsImEiOiJjbDA1eWZ5b2MwdThnM2pue
         bounds: ".container",
         lockAxis: true,
         inertia: true,
-        // snap: {
-        //     x: function(endValue) {
-        //         return Math.round(endValue / gridWidth) * gridWidth;
-        //     },
-        //     y: function(endValue) {
-        //         return Math.round(endValue / gridHeight) * gridHeight;
-        //     }
-        // }
+        onDrag:updateDirections,
+        onDrag: function() {
+            var video = document.getElementById("blackbackground");
+            if(this.getDirection(".car") == "up") {
+                console.log(this.target);
+                TweenLite.to("#map", 0.5, {scale:1, opacity: 1});
+                TweenLite.to(".sidebar", 0.5, {scale:1, opacity:1});
+                // video.style.display = "none";
+                // document.getElementById("blackbackground").style.visibility = "hidden";
+            }
+            else if(this.getDirection(".car") == "down") {
+                console.log(this.target);
+                // document.getElementById(".blackbackground").style.visibility = "hidden";
+                TweenLite.to("#map", 0.5, {scale:1, opacity:0});
+                TweenLite.to(".sidebar", 0.2, {scale:1, opacity:0});
+            }
+        },
+        onThrowUpdate:updateDirections,
+        onThrowComplete:function() {
+          //move the original marker to end position
+          gsap.to(original, {duration:1, x:this.x, y:this.y});
+        }
     });
 
-    Draggable.create(".rearcamera")
+    function updateDirections() {
+        //getDirection() can return 3 types of direction...
+        directionStart.innerHTML = '"' + this.getDirection("start") + '"'; //direction from start of drag
+        directionVelocity.innerHTML = '"' + this.getDirection("velocity") + '"'; //momentary velocity *requires InertiaPlugin
+        directionObject.innerHTML = '"' + this.getDirection(logoElement) + '"'; //direction from an object
+    }
+    
+    gsap.set(logoElement, {xPercent:-50, yPercent:-50})
+
+    // Draggable.create(".rearcamera")

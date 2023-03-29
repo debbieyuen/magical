@@ -31,3 +31,25 @@ Check to make sure it was installed successfully.
 $ npm -v
 $ node -v
 ```
+
+Set up GSAP by adding the following to your .npmrc file either for your profile ($ vim ~/.npmrc) or at the root of your project.
+```bash
+$ //npm.greensock.com/:_authToken=b7bce164-5019-4e5d-98b5-70eba6754ec4@gsap:registry=https://npm.greensock.com
+```
+
+The first time you install GSAP to a project, install via.
+```bash
+$ npm install gsap@npm:@gsap/shockingly
+```
+
+You may also install all free and bonus plugins by downloading the zip file and installing via the following command.
+```bash
+$ npm install ./gsap-bonsu.tgz
+```
+
+Or install GSAP without bonus plugins. 
+```bash
+$ npm install gsap
+```
+
+

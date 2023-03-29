@@ -1,6 +1,6 @@
 # The Magic School Bus
 
-This project is 
+This project is. Visit the website at https://debbieyuen.github.io/magical/.
 
 ## Requirements
   * Greensock GSAP3 (Shockingly)

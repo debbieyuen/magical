@@ -14,6 +14,16 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGViYmlleXVlbiIsImEiOiJjbDA1eWZ5b2MwdThnM2pue
         zoom: 15 // starting zoom
     });
 
+    // Create a default marker and add it to the map
+    const marker1 = new mapboxgl.Marker({color: 'red'})
+        .setLngLat([-118.32998999051183, 33.92142158687523])
+        .addTo(map);
+    
+    // Create a default Marker, colored red, rotated 45 degrees.
+    // const marker2 = new mapboxgl.Marker({ color: 'red', rotation: 45})
+    //     .setLngLat([-118.32998999051183, 33.92142158687523])
+    //     .addTo(map);
+
     // Add geolocate control to the map.
     map.addControl(
         new mapboxgl.GeolocateControl({
@@ -25,6 +35,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZGViYmlleXVlbiIsImEiOiJjbDA1eWZ5b2MwdThnM2pue
             // Draw an arrow next to the location dot to indicate which direction the device is heading.
             showUserHeading: true
         })
+    
+    
     );
     // Define variables for draggable if statement
     var directionStart = document.getElementById("directionStart"),

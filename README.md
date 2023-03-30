@@ -2,7 +2,12 @@
 
 <img width="2048" alt="Screen Shot 2023-03-29 at 6 41 58 AM" src="https://user-images.githubusercontent.com/31296177/228558278-40c8560e-ff85-45ee-84ff-ff94a02ae6be.png">
 
-The Magic School Bus is a web application compatible on Macs and iPads. While I was working on this assignment, I was interested in bringing back my childhood memories of watching the Magic School Bus. I remember my classmates and I would chant along with the theme song and wonder over where our next field trip would be. 
+The Magic School Bus is a web application compatible with Macs and iPads. During my elementary school years, the TV Series, *The Magic School Bus*, brought excitement to science education and sparked my imagination. In this assignment, I bring back my childhood memories of watching Miss. Frizzle and her class launch into space to discover the unknown. In my prototype, drivers begin their launch to outer space, specifically to the stars, via **drive** and **reverse** modes. In reference to the “reach for the stars” idiom, drivers set goals to reach their destinations, the stars. Drivers are also prompted for today’s adventure destination via the input search bar with, “Today on the Magic School Bus, we are going…” written over it. 
+
+The Magic School Bus prototype questions what it means for a driver to get in, drive, and arrive in a Tesla. Can Teslas leave behind a legacy of positivity and inspiration by challenging what “just a drive” is and helping riders discover meaning in their life adventures? 
+
+The next time you get in your Tesla, swipe up into *drive*, and ask yourself am I finding joy in the journey and arrival of my next adventure? Do I even see it as an adventure? I hope you look forward to parking, because there is something up ahead that’s amazing! 
+
 
 ### Links
   * Live Website: https://debbieyuen.github.io/magical/
@@ -78,7 +83,7 @@ $ npm install gsap
 
 Install Flask
 ```bash
-$ pip install Flask
+$ pip install flask
 ```
 
 In Visual Studio Code, install the Live Server Extension to quickly run the website locally on your machine. Else, run the program in your terminal.

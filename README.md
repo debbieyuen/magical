@@ -6,7 +6,7 @@ The Magic School Bus is a web application compatible with Macs and iPads. During
 
 The Magic School Bus prototype questions what it means for a driver to get in, drive, and arrive in a Tesla. Can Teslas leave behind a legacy of positivity and inspiration by challenging what “just a drive” is and helping riders discover meaning in their life adventures? 
 
-The next time you get in your Tesla, swipe up into *drive*, and ask yourself am I finding joy in the journey and arrival of my next adventure? Do I even see it as an adventure? I hope you look forward to parking, because there is something up ahead that’s amazing! 
+The next time you get in your Tesla, swipe up into **drive**, and ask yourself am I finding joy in the journey and arrival of my next adventure? Do I even see it as an adventure? I hope you look forward to **parking**, because there is something up ahead that’s amazing! 
 
 
 ### Links

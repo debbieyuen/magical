@@ -34,8 +34,10 @@ The Magic School Bus is a web application compatible on Macs and iPads. While I 
   * Greensock GSAP3 (Shockingly)
   * Mapbox GL JS and token
   * Flask 1.1.2
+  * Werkzeug 1.0.1
   * Python 3.8.8
   * NodeJS v18.8.1
+
 
 ## Project Setup
 Clone the repo
@@ -88,7 +90,8 @@ $ open index.html
 
 I attempted the bonus question using Flask. Feel free to see my code in the 'bonus' folder.
 
-Run app.py
+Run app.py at http://127.0.0.1:5000/ and test.py at http://127.0.0.1:4444/
 ```bash
 $ flask run
+$ python3 test.py   
 ```

@@ -21,8 +21,8 @@ The Magic School Bus is a web application compatible on Macs and iPads. While I 
 | Allow permissions| Allow app to access your location and webcam |
 
 ### Magic School Bus Gears
-| Gears | Description |
-| --- | --- |
+| Gears | Symbol | Description |
+| --- | --- | --- |
 | `P`: Park | Life is a series of destinations. When and where can you park your car at your destination? Maybe choose some that bring joy, meaning, and fulfillment.  |
 | `R`: Reverse | Reverse is a direction in life. It is neither bad nor good unless you make it out to be so. Reverse is bringing you closer to home or your destination.  |
 | `N`: Neutral | Earth. An important place full of mysteries. |

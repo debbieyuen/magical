@@ -15,8 +15,9 @@ The Magic School Bus is a web application compatible on Macs and iPads. While I 
 | Yellow car swipe down | Opens up rear view cameras (your webcam in this prototype) |
 | Yellow car swipe up | Displays navigation and music side panels |
 | Press location button | Prompts you for your location to display your location on map |
-| Tap pink MSB image | Plays the MSB theme song |
+| Tap pink MSB image | Plays the Magic School Bus theme song |
 | Pinch map| Zoom in and out of navigation map |
+| Type in search bar | Search bar will not populate information |
 | Allow permissions| Allow app to access your location and webcam |
 
 ### Magic School Bus Gears
@@ -28,7 +29,6 @@ The Magic School Bus is a web application compatible on Macs and iPads. While I 
 | `D`: Drive | Your journey to the stars. Eventually, you want to park. |
 
 <img width="2048" alt="Screen Shot 2023-03-29 at 6 48 15 AM" src="https://user-images.githubusercontent.com/31296177/228559116-f68dde3d-69f7-4c27-868b-8554aa9ab37d.png">
-
 
 ## Requirements
   * Greensock GSAP3 (Shockingly)
@@ -83,4 +83,12 @@ In Visual Studio Code, install the Live Server Extension to quickly run the webs
 Clone the repo
 ```bash
 $ open index.html
+```
+## Bonus Question
+
+I attempted the bonus question using Flask. Feel free to see my code in the 'bonus' folder.
+
+Run app.py
+```bash
+$ flask run
 ```

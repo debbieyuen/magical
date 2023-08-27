@@ -10,8 +10,8 @@ The next time you get in your Tesla, swipe up into **drive**, and ask yourself a
 
 
 ### Links
-  * Live Website: https://debbieyuen.github.io/magical/
-  * Video Demo: https://www.youtube.com/watch?v=XTSfzfHcBxM
+  * [Live Website](https://debbieyuen.github.io/magical/)
+  * [Video Demo](https://www.youtube.com/watch?v=XTSfzfHcBxM)
 
 ### Website Interactions
 | Action | Element | Description |
